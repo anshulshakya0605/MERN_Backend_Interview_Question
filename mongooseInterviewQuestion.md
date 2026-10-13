@@ -355,7 +355,7 @@ The complete flow works like this:
 6. Model/Database: The model communicates with MongoDB using Mongoose to read or modify data.
 7. Response: The result returns to the controller, which sends an appropriate HTTP response to the client.  
 
-![alt text](image.png)  
+![alt text](images/image.png)  
 In simple words, the request goes from the frontend to the route, middleware, controller, service, and database. The result then comes back to the frontend as an HTTP response.  
 
 ----
